@@ -1,0 +1,34 @@
+pandas
+numpy
+sqlalchemy
+pytest
+psycopg2-binary
+## Requirements for ETL project (pinned / constrained)
+## Recommended Python: 3.10 or 3.11 (Airflow 2.6.x compatibility)
+
+# Core
+pandas==2.1.2
+numpy==1.26.2
+SQLAlchemy==2.1.0
+psycopg2-binary==2.9.7
+
+# Notebooks / dev
+jupyter==1.0.0
+notebook==6.5.4
+ipykernel==6.28.0
+
+# Airflow (pin to tested minor versions)
+apache-airflow==2.6.3
+apache-airflow-providers-google==13.0.0
+
+# dbt (optional - used conceptually in project comments)
+dbt-core==1.5.0
+dbt-bigquery==1.5.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Notes:
+# - If you install Airflow, follow the official install guide for extra system deps.
+# - Use a virtualenv with Python 3.10/3.11 to avoid compatibility issues with Airflow.

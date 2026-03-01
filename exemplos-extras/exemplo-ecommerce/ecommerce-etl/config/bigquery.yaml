@@ -1,0 +1,7 @@
+# Contents of the file: /ecommerce-etl/ecommerce-etl/config/bigquery.yaml
+
+project_id: your_project_id
+dataset_id: your_dataset_id
+credentials_path: path/to/your/credentials.json
+location: US
+timeout: 300

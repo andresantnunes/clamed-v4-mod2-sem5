@@ -46,6 +46,16 @@ def gerador_dados_pandas(num_registros: int = NUMERO_REGISTROS_PADRAO) -> pd.Dat
     return pd.DataFrame(dados)
 
 
+# Aula 3 - gerador de updated
+def gerador_updates(num_registros: int = NUMERO_REGISTROS_PADRAO) -> pd.DataFrame:
+    dados = {
+        'id_cliente_origem': [random.randint(1, 1000) for _ in range(num_registros)],
+        'nome': [fake.name() for _ in range(num_registros)],
+        'cidade': [fake.city() for _ in range(num_registros)],
+        'email': [fake.email() for _ in range(num_registros)]
+    }
+    return pd.DataFrame(dados)
+
 lista_gerada = gerador_dados(100)
 
 df_gerado = gerador_dados_pandas(100)
