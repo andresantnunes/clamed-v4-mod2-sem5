@@ -1,0 +1,6 @@
+# Credenciais e chaves de serviço (service account keys)
+*-[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].json
+projeto-bq-*.json
+*serviceaccount*.json
+*service-account*.json
+*credentials*.json
